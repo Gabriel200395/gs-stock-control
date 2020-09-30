@@ -1,15 +1,16 @@
 .imagem{
     height: 325px;
     width: 300px;
-    margin-left: 15px;
+    margin-left: 30px;
+    margin-top: 0px;
 } 
 
 .sistema{
     color: rgba(157, 137, 137, 0.65);    
     font-family: 'Nunito', sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     text-align: end;
-    margin-top: 0px;
+    margin-top: 10px;
     font-weight: 400;
     font-family: 'Nunito', sans-serif;
 
