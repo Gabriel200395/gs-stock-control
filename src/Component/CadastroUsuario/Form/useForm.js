@@ -1,10 +1,12 @@
 
 import { useState } from 'react'
 import axios from 'axios'
+import {useHistory} from 'react-router-dom'
 
 const useForm = (Callback) => {
 
     const [usuario, setUsuarios] = useState({});
+    const history = useHistory();
 
     const handleChange = (event) => {
         setUsuarios({
@@ -18,8 +20,8 @@ const useForm = (Callback) => {
         event.preventDefault();
         console.log(usuario);
         enviarData();
+        history.push("/ListaUsuarios")
     }
-
 
 
     const enviarData =  () => {
