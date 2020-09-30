@@ -5,12 +5,12 @@ import axios from 'axios'
 
 export default function UsuarioCard() {
 
-    const [data, setUsuarios] = useState({ usuarios: []});
+    const [usuarios, setUsuarios] = useState([]);
 
     useEffect(() => {
         async function buscar() {
             const res = await axios.get("http://localhost:8080/usuario");
-            setUsuarios(res.data);
+            setUsuarios(res.data.usuarios);
         }
         buscar();
     }, []);
@@ -19,7 +19,7 @@ export default function UsuarioCard() {
 
         <section className="card">
             <div className="container">
-                {data.usuarios.map((usuario) => (
+                {usuarios.map((usuario) => (
                         <div className="card-container" key={usuario._id}>
                             <div className="container-titulo">
                                 <h3 className="titulo">{usuario.empresa}</h3>
