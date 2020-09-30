@@ -1,0 +1,39 @@
+
+.container .titulo{
+    color: #363535;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+
+.form-home .container{
+   flex-direction: column;
+   align-items: center;
+} 
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 57px;
+
+} 
+
+.button{
+    margin-top: 10px;
+    background: #D11919;
+    height: 35px;
+    text-align: center;
+    padding: 13px 72px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    outline: none;
+}
+.login-img{
+     height: 140px;
+} 
