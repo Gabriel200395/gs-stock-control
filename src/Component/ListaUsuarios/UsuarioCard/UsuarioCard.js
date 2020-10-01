@@ -1,16 +1,15 @@
 
 import React from 'react'
+import useCard from './useCard'
 import './card.css'
 import { Link } from 'react-router-dom'
-import useCard from './useCard'
-
-
-
 export default function UsuarioCard() {
 
-    const [handleInputChange, usuarioFiltrado, filtro] = useCard('')
-     
+
+    const[handleInputChange, usuarioFiltrado, filtro] = useCard('');
+
     return (
+
         <section className="card">
             <input type="text" value={filtro} onChange={handleInputChange} />
             <div className="container">
@@ -25,6 +24,7 @@ export default function UsuarioCard() {
                             <li>telefone: {usuario.telefone}</li>
                             <li>cidade: {usuario.cidade}</li>
                             <li>Uf: {usuario.uf}</li>
+
                         </ul>
                         <div className="container-button">
                             <Link to="/CadastroProdutos" className="buttonCadastro">Cadastrar Produto</Link>

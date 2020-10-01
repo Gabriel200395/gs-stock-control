@@ -12,14 +12,10 @@
   box-sizing: border-box;
   width: 220px;
   height: 270px;
-  margin-top: 38px;
-  margin-left: 30px;
+   margin-top: 38px;
+   margin-left: 30px;
   box-shadow: 1px 1px 1px 1px #D9D8D8; 
   
-  }
-  
-  .card-container:div:nth-child(3n){
-     margin: 0px;
   }
   
   .titulo{

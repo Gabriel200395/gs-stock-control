@@ -1,13 +1,15 @@
 import React from 'react'
 import './ProdutosCard.css'
-import { Link } from 'react-router-dom'
+import usePro from './usePro'
 
-export default function ProdutosCard() {
-
+export default function ProdutosCard() {    
+   
+    const [usuarios] = usePro('');
+    
     return (
         <section className="card">
             <div className="container">
-                {usuarioFiltrado.map((usuario) => (
+                {usuarios.map((usuario) => (
                     <div className="card-container" key={usuario._id}>
                         <div className="container-titulo">
                             <h3 className="titulo">{usuario.empresa}</h3>
@@ -19,15 +21,14 @@ export default function ProdutosCard() {
                             <li>cidade: {usuario.cidade}</li>
                             <li>Uf: {usuario.uf}</li>
                         </ul>
-                        <div className="container-button">
-                            <Link to="/CadastroProdutos" className="buttonCadastro">Cadastrar Produto</Link>
+                        <div className="container-button-produto">
+                            <button>remove</button>
+                            <button>edit</button>
                         </div>
                     </div>
                 ))
                 }
             </div>
         </section>
-
     );
-
 }

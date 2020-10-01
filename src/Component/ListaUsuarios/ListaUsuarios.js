@@ -5,7 +5,7 @@ import UsuarioCard from './UsuarioCard/UsuarioCard';
 
 export default function ListaUsuarios(){
    return(
-       <section className="demontracao-produtos">
+       <section className="demontracao-usuarios">
             <div className="container"> 
                  <Nav />
             </div>
