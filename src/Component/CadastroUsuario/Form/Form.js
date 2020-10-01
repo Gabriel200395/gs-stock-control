@@ -6,7 +6,7 @@ export default function Form() {
     const [handleChange, handleSubmit, enviarData] = useForm('')
 
     return (
-         <div className="form-cadastro-usuario">
+         <div className="form-cadastro-produto">
               <form className="container"
                    onSubmit={handleSubmit(enviarData)}
               >
@@ -37,7 +37,7 @@ export default function Form() {
                    />
                    <button>Enviar</button>
               </form>
-              <p className="sistema-cadastro">Gs Control Sistem</p>
+              <p className="sistema-cadastro-produto">Gs Control Sistem</p>
          </div>
     );
 

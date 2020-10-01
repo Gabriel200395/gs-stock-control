@@ -1,18 +1,11 @@
-
 import React from 'react'
-import './card.css'
+import './ProdutosCard.css'
 import { Link } from 'react-router-dom'
-import useCard from './useCard'
 
+export default function ProdutosCard() {
 
-
-export default function UsuarioCard() {
-
-    const [handleInputChange, usuarioFiltrado, filtro] = useCard('')
-     
     return (
         <section className="card">
-            <input type="text" value={filtro} onChange={handleInputChange} />
             <div className="container">
                 {usuarioFiltrado.map((usuario) => (
                     <div className="card-container" key={usuario._id}>

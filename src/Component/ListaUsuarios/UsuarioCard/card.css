@@ -35,8 +35,8 @@
   }
   
   .lista{
-    text-indent: -28px;
-    text-align: center;
+    text-indent: -8px;
+    text-align: left;
     list-style: none;
     font-family: 'Nunito', sans-serif;
     font-size: 12px; 
@@ -52,7 +52,7 @@
     border-top: solid 1px #C4C4C4;
   } 
   
-  .container-button button{
+  .container-button .buttonCadastro{
     margin-top: 14px;
     background: #D11919;
     border: 1px solid #ECEAEA;
@@ -66,4 +66,6 @@
     font-family: 'Nunito', sans-serif;
     font-size: 11px;
     outline: none;
+    text-decoration: none;
+    padding: 9px 18px;
   }
