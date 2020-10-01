@@ -6,12 +6,18 @@ import { Link } from 'react-router-dom'
 export default function UsuarioCard() {
 
 
-    const[handleInputChange, usuarioFiltrado, filtro] = useCard('');
+    const [handleInputChange, usuarioFiltrado, filtro] = useCard('');
 
     return (
 
         <section className="card">
-            <input type="text" value={filtro} onChange={handleInputChange} />
+            <div className="buscador-usuarios">
+                <input type="text"
+                    value={filtro}
+                    placeholder="Buscar Usuarios"
+                    onChange={handleInputChange}
+                />
+            </div>
             <div className="container">
                 {usuarioFiltrado.map((usuario) => (
                     <div className="card-container" key={usuario._id}>

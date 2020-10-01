@@ -65,3 +65,20 @@
     text-decoration: none;
     padding: 9px 18px;
   }
+
+
+  .buscador-usuarios {
+    display: flex;
+    justify-content: center;   
+  } 
+
+
+  input {
+    width: 50%;
+    margin-top: 60px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #ECEAEA;
+    padding: 15px 20px;  
+    font-family: 'Nunito', sans-serif;
+  }
