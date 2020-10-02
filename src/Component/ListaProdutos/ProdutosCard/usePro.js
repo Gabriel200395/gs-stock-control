@@ -2,17 +2,28 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 
 const usePro = () => {
-    const [usuarios, setUsuarios] = useState([]); // state para trazer os usuarios
+    const [produto, setProduto] = useState([])
 
     useEffect(() => {
-        async function buscar() {
-            const res = await axios.get("http://localhost:8080/usuario");
-            setUsuarios(res.data.usuarios);
+        async function produto() {
+            const res = await axios.get("http://localhost:8080/produto");
+            setProduto(res.data.produto);
         }
-        buscar();
+        produto();
     }, []);
 
-    return [usuarios];
+
+    const deleteProdutos = async (_id) => {
+        try {
+            const res = await axios.delete(`http://localhost:8080/produto/${_id}`);
+            setProduto(produto.filter(pro => pro._id !== _id));
+            console.log(res.data);
+        } catch (err) {
+            console.log("error ao excluir dados");
+        }
+    }   
+    
+    return [produto, deleteProdutos];
 
 }
 

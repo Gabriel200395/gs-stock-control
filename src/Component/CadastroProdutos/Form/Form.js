@@ -1,43 +1,41 @@
-import React from 'react'
+import React  from 'react'
 import './Form.css' 
-import {useHistory} from 'react-router-dom'
+import useProdutos from './useProdutos';
 
 
 export default function Form() {
 
- const history  = useHistory();   
-
-const handleSunmit = (e) => {
-    e.preventDefault()
-    history.push("/ListaProdutos")
-
-}
-
+      const  [handleChange, handleSubmit, enviarProdutos] = useProdutos('');
 
      return (
           <div className="form-cadastro-usuario">
                <form className="container"
-               onSubmit={handleSunmit}
+               onSubmit={handleSubmit(enviarProdutos)}
                >
                     <input type="text"
-                         name="empresa"
-                         placeholder="empresa"
+                         name="produto"
+                         placeholder="produto"
+                         onChange={handleChange}
                     />
                     <input type="text"
-                         name="gmail"
-                         placeholder="gmail"
+                         name="descricao"
+                         placeholder="descricao"
+                         onChange={handleChange}
                     />
                     <input type="text"
-                         name="telefone"
-                         placeholder="telefone"
+                         name="preco"
+                         placeholder="preco"
+                         onChange={handleChange}
                     />
                     <input type="text"
-                         name="cidade"
-                         placeholder="cidade"
+                         name="quantidade"
+                         placeholder="quantidade"
+                         onChange={handleChange}
                     />
-                    <input
-                         type="text"
-                         name="uf" placeholder="uf"
+                    <input type="text"
+                         name="imagem"
+                         placeholder="imagem"
+                         onChange={handleChange}
                     />
                     <button>Enviar</button>
                </form>

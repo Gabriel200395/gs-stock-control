@@ -1,10 +1,10 @@
 
-.form-cadastro-usuario .container{
+.form-editar-produto .container{
     flex-direction: column;
 
 }   
 
-.form-cadastro-usuario input{
+.form-editar-produto  input{
        margin-top: 10px;
        width: 270px;
        height: 40px;
@@ -16,7 +16,7 @@
        
 }   
 
-.form-cadastro-usuario button{
+.form-editar-produto button{
     margin-top: 10px; 
     height: 45px;
     background: #D11919;

@@ -1,29 +1,38 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './ProdutosCard.css'
 import usePro from './usePro'
 
 export default function ProdutosCard() {    
    
-    const [usuarios] = usePro('');
+    const [produto,deleteProdutos] = usePro('');
     
     return (
         <section className="card">
             <div className="container">
-                {usuarios.map((usuario) => (
-                    <div className="card-container" key={usuario._id}>
+                {produto.map((prod) => (
+                    <div className="card-container-produto" key={prod._id}>
                         <div className="container-titulo">
-                            <h3 className="titulo">{usuario.empresa}</h3>
+                            <h3 className="titulo">{prod.produto}</h3>
                         </div>
+                        <img className="produto-imagem"
+                             src={prod.imagem} 
+                             alt="imagem" 
+                             width="220" height="120"
+                            />
                         <ul className="lista">
-                            <li>nome da empresa : {usuario.empresa}</li>
-                            <li>Gmail :{usuario.gmail}</li>
-                            <li>telefone: {usuario.telefone}</li>
-                            <li>cidade: {usuario.cidade}</li>
-                            <li>Uf: {usuario.uf}</li>
+                           <li>descricao Produto: {prod.descricao}</li>
+                            <li>preco : {prod.preco}</li>
+                            <li>quantidade :{prod.quantidade}</li>
                         </ul>
                         <div className="container-button-produto">
-                            <button>remove</button>
-                            <button>edit</button>
+                            <button className="button-produto" 
+                            onClick={() => 
+                            deleteProdutos(prod._id)}
+                            >Remove</button>
+                            <Link className="button-produto-edit"  
+                            to={"/EditarProdutos/" + prod._id}
+                            >Edit</Link>
                         </div>
                     </div>
                 ))

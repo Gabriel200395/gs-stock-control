@@ -33,7 +33,7 @@ export default function UsuarioCard() {
 
                         </ul>
                         <div className="container-button">
-                            <Link to="/CadastroProdutos" className="buttonCadastro">Cadastrar Produto</Link>
+                            <Link to={"/CadastroProdutos/" + usuario._id} className="buttonCadastro">Cadastrar Produto</Link>
                         </div>
                     </div>
                 ))
