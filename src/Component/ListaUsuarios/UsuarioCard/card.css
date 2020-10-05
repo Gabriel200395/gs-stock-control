@@ -1,4 +1,10 @@
 
+.card-container:nth-child(3n){
+   margin-left: 38px;
+   margin-right: 50px;
+}
+
+
 .card .container{
     display: flex;
     justify-content: center;
@@ -6,9 +12,6 @@
     flex-flow: wrap;
   }
 
-
-
-   
   .card-container{
   background: #FFFFFF;
   border: 1px solid #D9D8D8;
@@ -16,7 +19,7 @@
   width: 220px;
   height: 270px;
    margin-top: 38px;
-   margin-left: 30px;
+   margin-left: 37px;
   box-shadow: 1px 1px 1px 1px #D9D8D8; 
   
   }
@@ -64,6 +67,7 @@
     font-weight: bold;
     font-family: 'Nunito', sans-serif;
     font-size: 11px;
+    text-align: center;
     outline: none;
     text-decoration: none;
     padding: 9px 18px;

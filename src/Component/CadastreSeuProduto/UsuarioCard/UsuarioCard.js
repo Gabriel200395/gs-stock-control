@@ -6,20 +6,13 @@ import { Link } from 'react-router-dom'
 export default function UsuarioCard() {
 
 
-    const [handleInputChange, usuarioFiltrado, filtro] = useCard('');
+    const [usuarios] = useCard('');
 
     return (
 
         <section className="card">
-            <div className="buscador-usuarios">
-                <input type="text"
-                    value={filtro}
-                    placeholder="Buscar Usuarios"
-                    onChange={handleInputChange}
-                />
-            </div>
             <div className="container">
-                {usuarioFiltrado.map((usuario) => (
+                {usuarios.map((usuario) => (
                     <div className="card-container" key={usuario._id}>
                         <div className="container-titulo">
                             <h3 className="titulo">{usuario.empresa}</h3>
@@ -33,8 +26,7 @@ export default function UsuarioCard() {
 
                         </ul>
                         <div className="container-button">
-                            <Link to={"/CadastrarProduto/" + usuario._id} 
-                            className="buttonCadastro">Ver Produto</Link>
+                            <Link to={"/CadastrarProduto/" + usuario._id} className="buttonCadastro">Cadastrar Produto</Link>
                         </div>
                     </div>
                 ))

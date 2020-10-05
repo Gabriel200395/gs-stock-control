@@ -4,9 +4,10 @@ import App from './App';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import CadastroUsuario from './Component/CadastroUsuario/CadastroUsuario'
 import ListaUsuarios from './Component/ListaUsuarios/ListaUsuarios'
-import CadastroProdutos from './Component/CadastroProdutos/CadastroProdutos'
-import EditarProdutos from './Component/EditarProdutos/EditarProdutos'
+import CadastrarProduto from './Component/CadastrarProduto/CadastrarProduto'
+import Form from './Component/EditarProdutos/Form/Form'
 import ListaProdutos from './Component/ListaProdutos/ListaProdutos'
+import CadastreSeuProduto from './Component/CadastreSeuProduto/CadastreSeuProduto'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -14,9 +15,11 @@ ReactDOM.render(
       <Route path="/" exact={true} component={App} />
       <Route path="/CadastroUsuario" component={CadastroUsuario} />
       <Route path="/ListaUsuarios" component={ListaUsuarios} />
-      <Route path="/CadastroProdutos/:id" component={CadastroProdutos} />
+      <Route path="/CadastrarProduto/:id" component={CadastrarProduto} />
       <Route path="/ListaProdutos" component={ListaProdutos} />
-      <Route path="/EditarProdutos/:id" component={EditarProdutos} />
+      <Route path="/EditarProdutos/:id" component={Form} />
+      <Route path="/CadastreSeuProduto" component={CadastreSeuProduto} />
+
     </Switch>
   </BrowserRouter>
   , document.getElementById('root'));

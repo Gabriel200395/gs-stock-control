@@ -20,7 +20,7 @@ const useForm = (Callback) => {
         event.preventDefault();
         console.log(usuario);
         enviarData();
-        history.push("/ListaUsuarios")
+        history.push("/CadastreSeuProduto")
     }
 
 

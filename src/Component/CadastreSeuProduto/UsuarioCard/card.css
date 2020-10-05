@@ -1,25 +1,25 @@
+
 .card .container{
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex-flow: wrap;
   }
-    
-  .card-container-produto{
+
+
+
+   
+  /*.card-container{
   background: #FFFFFF;
   border: 1px solid #D9D8D8;
   box-sizing: border-box;
   width: 220px;
-  height: 350px;
-  margin-top: 38px;
-  margin-left: 30px;  
+  height: 270px;
+   margin-top: 38px;
+   margin-left: 30px;
+  box-shadow: 1px 1px 1px 1px #D9D8D8; 
   }
-  
-  .card-container-produto:nth-child(3n){
-    margin-left: 30px;
-    margin-right: 50px;
- }
- 
+  */
 
   .titulo{
     color: #171717;
@@ -45,20 +45,20 @@
     
   }
   
-  .container-button-produto{
+  .container-button{
     display: flex;
     justify-content: center;
     border-top: solid 1px #C4C4C4;
   } 
   
-
-  .container-button-produto button{
+  .container-button .buttonCadastro{
+    margin-top: 14px;
     background: #D11919;
     border: 1px solid #ECEAEA;
     box-sizing: border-box;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
-    width: 30%;
+    width: 60%;
     height: 35px;
     color:#fff;
     font-weight: bold;
@@ -66,30 +66,22 @@
     font-size: 11px;
     outline: none;
     text-decoration: none;
-    margin: 13px 3px;
+    padding: 9px 18px;
   }
 
 
-  .produto-imagem{
-    margin-left: -1px;
-  }
+  .buscador-usuarios {
+    display: flex;
+    justify-content: center;   
+  } 
 
 
-  .button-produto-edit{
-    background: #D11919;
-    border: 1px solid #ECEAEA;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  input {
+    width: 50%;
+    margin-top: 60px;
     border-radius: 5px;
-    width: 30%;
-    height: 35px;
-    color:#fff;
-    font-weight: bold;
+    background: #FFFFFF;
+    border: 1px solid #ECEAEA;
+    padding: 15px 20px;  
     font-family: 'Nunito', sans-serif;
-    font-size: 11px;
-    text-align: center;
-    outline: none;
-    text-decoration: none;
-    margin: 13px 3px;
-    padding: 8px ;
   }

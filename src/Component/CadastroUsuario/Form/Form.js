@@ -14,11 +14,13 @@ export default function Form() {
                         name="empresa"
                         placeholder="empresa"
                         onChange={handleChange}
+                        required
                    />
                    <input type="text"
                         name="gmail"
                         placeholder="gmail"
                         onChange={handleChange}
+                        required
                    />
                    <input type="text"
                         name="telefone"
@@ -29,11 +31,13 @@ export default function Form() {
                         name="cidade"
                         placeholder="cidade"
                         onChange={handleChange}
+                        required
                    />
                    <input
                         type="text"
                         name="uf" placeholder="uf"
                         onChange={handleChange}
+                        required
                    />
                    <button>Enviar</button>
               </form>
