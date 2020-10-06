@@ -8,6 +8,8 @@ import CadastrarProduto from './Component/CadastrarProduto/CadastrarProduto'
 import Form from './Component/EditarProdutos/Form/Form'
 import ListaProdutos from './Component/ListaProdutos/ListaProdutos'
 import CadastreSeuProduto from './Component/CadastreSeuProduto/CadastreSeuProduto'
+import VisualizarProduto from './Component/VisualizarProduto/VisualizarProduto'
+
 
 ReactDOM.render(
   <BrowserRouter>
@@ -19,7 +21,7 @@ ReactDOM.render(
       <Route path="/ListaProdutos" component={ListaProdutos} />
       <Route path="/EditarProdutos/:id" component={Form} />
       <Route path="/CadastreSeuProduto" component={CadastreSeuProduto} />
-
+      <Route path="/VisualizarProduto/:id" component={VisualizarProduto} />
     </Switch>
   </BrowserRouter>
   , document.getElementById('root'));

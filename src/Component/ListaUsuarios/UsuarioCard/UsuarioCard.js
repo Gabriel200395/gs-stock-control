@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function UsuarioCard() {
 
 
-    const [handleInputChange, usuarioFiltrado, filtro] = useCard('');
+    const [handleInputChange, deleteUser, usuarioFiltrado, filtro] = useCard('');
 
     return (
 
@@ -33,8 +33,11 @@ export default function UsuarioCard() {
 
                         </ul>
                         <div className="container-button">
-                            <Link to={"/CadastrarProduto/" + usuario._id} 
-                            className="buttonCadastro">Ver Produto</Link>
+                            <Link to={"/VisualizarProduto/" + usuario._id} 
+                            className="editar">Ver Produto</Link>
+                            <button onClick={() => deleteUser(usuario._id)} 
+                            className="remover">
+                            remover</button>
                         </div>
                     </div>
                 ))

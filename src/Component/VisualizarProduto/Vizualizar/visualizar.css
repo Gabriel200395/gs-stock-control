@@ -1,0 +1,44 @@
+.card .container{
+    display: flex;
+    justify-content: center;
+  }
+    
+  .card-container-visualizar{
+  background: #FFFFFF;
+  border: 1px solid #D9D8D8;
+  box-sizing: border-box;
+  width: 400px;
+  height: 400px;
+  margin-top: 0px;
+  margin-left: 30px;  
+  }
+ 
+  .titulo-visualizar{
+    color: #171717;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+  }
+  
+  .container-titulo-visualizar{
+    border-bottom: solid 1px #C4C4C4;
+  
+  }
+  
+  .lista-visualizar{
+    text-indent: -8px;
+    text-align: left;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px; 
+    line-height: 22px;
+    color: #171717;
+    padding: 20px 0px 10px 30px;
+    
+  }
+
+
+  .produto-imagem{
+    margin-left: -1px;
+  }
+

@@ -17,7 +17,7 @@
   border: 1px solid #D9D8D8;
   box-sizing: border-box;
   width: 220px;
-  height: 270px;
+  height: 306px;
    margin-top: 38px;
    margin-left: 37px;
   box-shadow: 1px 1px 1px 1px #D9D8D8; 
@@ -50,18 +50,19 @@
   
   .container-button{
     display: flex;
-    justify-content: center;
+    align-items: center;
     border-top: solid 1px #C4C4C4;
+    flex-direction: column;
   } 
   
-  .container-button .buttonCadastro{
+  .container-button .editar{
     margin-top: 14px;
     background: #D11919;
     border: 1px solid #ECEAEA;
     box-sizing: border-box;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
-    width: 60%;
+    width: 50%;
     height: 35px;
     color:#fff;
     font-weight: bold;
@@ -74,6 +75,25 @@
   }
 
 
+  .container-button .remover{
+    margin-top: 14px;
+    background: #D11919;
+    border: 1px solid #ECEAEA;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 50%;
+    height: 35px;
+    color:#fff;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    outline: none;
+    margin-top: 6px;
+    text-decoration: none;
+    padding: 9px 18px;
+  }
   .buscador-usuarios {
     display: flex;
     justify-content: center;   

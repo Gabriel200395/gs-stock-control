@@ -1,8 +1,7 @@
-
-.form-editar-produto .container{
-    flex-direction: column;
-
-}   
+.form-editar-produto{
+   display: flex;
+   flex-direction: column;
+}
 
 .form-editar-produto  input{
        margin-top: 10px;

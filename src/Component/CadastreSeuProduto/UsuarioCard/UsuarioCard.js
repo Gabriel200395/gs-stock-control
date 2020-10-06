@@ -13,7 +13,7 @@ export default function UsuarioCard() {
         <section className="card">
             <div className="container">
                 {usuarios.map((usuario) => (
-                    <div className="card-container" key={usuario._id}>
+                    <div className="card-container-usuario" key={usuario._id}>
                         <div className="container-titulo">
                             <h3 className="titulo">{usuario.empresa}</h3>
                         </div>
