@@ -21,11 +21,10 @@ export default function FormCadastro() {
      const handleSubmit = async (data) => {
         try{ 
           const res = axios.post("http://localhost:8080/usuario", data);
-          console.log(res.data)
+          console.log(res.data.usuarios)
         }catch(err){
           console.log("error ao enviar os dados");
         }
-      
         history.push("/CadastreSeuProduto")
      }  
      
