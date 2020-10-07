@@ -5,15 +5,13 @@ const useVisualizar = () => {
         
     const [produto, setProduto] = useState([]);        
 
-    useEffect(() => {
-        async function visualizarProduto (){
-            const res = await axios.get("http://localhost:8080/produto");
-            setProduto(res.data.produto);
+        async function visualizarProduto(id){
+            const res = await axios.get(`http://localhost:8080/usuario/${id}/produtos`);
+            setProduto(res.data.produtos);
         }
-        visualizarProduto();
-    },[]); 
-    
-    return [produto];
+     
+
+    return [produto, visualizarProduto];
 }
 
 export default useVisualizar;

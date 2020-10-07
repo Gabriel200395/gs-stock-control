@@ -1,11 +1,19 @@
-import React  from 'react'
+import React , {useEffect} from 'react'
 import './visualizar.css' 
 import useVisualizar from './useVisualizar';
+import {useParams} from'react-router-dom'
 
 
 export default function Vizualizar() {
 
-      const [produto] = useVisualizar('');
+      const [produto, visualizarProduto] = useVisualizar('');
+      const  {id} = useParams();
+      console.log(id) 
+
+      useEffect(() => {
+        visualizarProduto(id); 
+      }, []);
+
 
       return (
           <section className="card">
