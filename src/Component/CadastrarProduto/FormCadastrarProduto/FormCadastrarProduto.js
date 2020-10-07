@@ -6,17 +6,17 @@ import { Form, Input } from '@rocketseat/unform'
 import * as Yup from 'yup'
 
 
-export default function FormCadastraProduto() {
+export default function FormCadastrarProduto() {
      
      const history  = useHistory(); 
      const [produto, setProduto] = useState({})  
 
      const schema  = Yup.object().shape({
-          produto: Yup.string().required("escreva produto"),
-          descricao: Yup.string().required("escreva uma descricao"),
-          quantidade: Yup.string().required("escreva uma descricao"),  
-          preco: Yup.string().required("escreva uma descricao"),  
-          imagem: Yup.string().required("coloque a url da imagem")
+          produto: Yup.string().required("Escreva o nome do produto"),
+          descricao: Yup.string().required("Escreva uma descricao"),
+          quantidade: Yup.number().typeError("Escreva a quantidade de produtos"),
+          preco: Yup.number().typeError("Escreva o preco dos produtos"),  
+          imagem: Yup.string().required("url da imagem em formato png, jpeg, jpg, svg")
      });
 
      const handleSubmit  = async (produto) => {

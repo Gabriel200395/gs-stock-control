@@ -9,6 +9,7 @@ import './Form.css'
 export default function FormCadastro() {
 
      const history = useHistory();
+     
      const telefoneRegex = RegExp(
           /^\(?([0-9]{3})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/
      );

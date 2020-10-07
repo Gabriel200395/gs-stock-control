@@ -1,12 +1,12 @@
 import React from 'react'
 import './flexbox.css'
-import FormCadastraProduto from './FormCadastraProduto/FormCadastraProduto'
+import FormCadastrarProduto from './FormCadastrarProduto/FormCadastrarProduto'
 
 export default function CadastrarProduto() {
     return (
         <section className="cadastro-usuario">
             <div className="container">
-               <FormCadastraProduto />
+               <FormCadastrarProduto />
             </div>
         </section>
     );
