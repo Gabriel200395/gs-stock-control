@@ -24,12 +24,15 @@ const useCard = () => {
     }, []);
 
 
-
+     //deve esta errado
     const deleteUser = async(_id) => {
-       try{
+        const usuario = usuarios.filter(usuario => usuario._id !== _id);        
+        try{
         const res = await axios.delete(`http://localhost:8080/usuario/${_id}`);
-        setUsuarioFiltrado(usuarios.filter(usuario => usuario._id !== _id));
-        console.log(res.data)
+        setUsuarioFiltrado(usuario);
+        setUsuarios(usuario);        
+        console.log(usuario)
+        console.log(res.data);
        }catch(err){
            console.log("erro ao excluir usuario");
        }

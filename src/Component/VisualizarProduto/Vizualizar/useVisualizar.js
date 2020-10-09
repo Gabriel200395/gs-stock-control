@@ -1,17 +1,24 @@
-import axios from 'axios'
+import axios from 'axios';
 import { useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom';
 
 const useVisualizar = () => {
-        
-    const [produto, setProduto] = useState([]);        
 
-        async function visualizarProduto(id){
-            const res = await axios.get(`http://localhost:8080/usuario/${id}/produtos`);
+    const [produto, setProduto] = useState([]);
+    const { id } = useParams();
+    console.log(id)
+
+    useEffect(() => {
+        async function buscarDataProduto() {
+            const res = await axios.get(`http://localhost:8080/usuario/${id}/produtos`)
             setProduto(res.data.produtos);
         }
-     
+        buscarDataProduto()
+    }, [id])
 
-    return [produto, visualizarProduto];
+
+
+    return [produto];
 }
 
 export default useVisualizar;

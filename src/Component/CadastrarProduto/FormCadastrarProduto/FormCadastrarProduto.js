@@ -1,5 +1,6 @@
 import React from 'react'
 import {useHistory} from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import axios from 'axios'
 import './Form.css' 
 import { Form, Input } from '@rocketseat/unform'
@@ -9,6 +10,7 @@ import * as Yup from 'yup'
 export default function FormCadastrarProduto() {
      
      const history  = useHistory(); 
+     const {id} = useParams();
 
      const schema  = Yup.object().shape({
           produto: Yup.string().required("Escreva o nome do produto"),
@@ -19,8 +21,9 @@ export default function FormCadastrarProduto() {
      });
 
      const handleSubmit  = async (data) => {
+          const produto = {...data, usuarioId: id}
           try {
-               const res = await axios.post("http://localhost:8080/produto", data);
+               const res = await axios.post("http://localhost:8080/produto", produto);
                console.log(res.data)
            } catch (err) {
                console.log("error ao enviar dados na api");
