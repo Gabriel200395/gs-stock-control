@@ -1,5 +1,6 @@
 <h1 align="center">Sistema de Controle de Estoque</h1>
 <h4 align="center">
+  <img src="./public/IMG/controleEstoque.gif"/><br>
 </h4>
 
 <p align="center">
@@ -33,8 +34,9 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 
 ## :heart_eyes: Features
 
+<h3 align="center">PAGINA 1</h3>
 <h4 align="center">
-  <img src="./public/IMG/controleEstoque.gif"  /><br>
+  <img src="./.github/assets/página.gif ou página.png" /><br>
 </h4>
 
 ## :pencil: Autor
