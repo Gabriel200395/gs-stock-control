@@ -1,6 +1,5 @@
 <h1 align="center">Sistema de Controle de Estoque</h1>
 <h4 align="center">
-  <img src="./.github/assets/IMAGE OU GIF" /><br>
 </h4>
 
 <p align="center">
