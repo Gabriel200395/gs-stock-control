@@ -33,7 +33,6 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 
 ## :heart_eyes: Features
 
-<h3 align="center">Projeto heart_eyes</h3>
 <h4 align="center">
   <img src="./public/IMG/controleEstoque.gif"  /><br>
 </h4>
