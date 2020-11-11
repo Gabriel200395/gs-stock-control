@@ -17,7 +17,6 @@ export default function Vizualizar() {
                         <img className="produto-imagem-visualizar"
                             src={prod.imagem}
                             alt="imagem"
-                            width="398" height="200"
                         />
                         <ul className="lista-visualizar">
                             <li>Descricao : {prod.descricao}</li>

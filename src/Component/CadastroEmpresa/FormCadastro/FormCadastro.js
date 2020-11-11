@@ -11,7 +11,7 @@ export default function FormCadastro() {
      const history = useHistory();
      
      const telefoneRegex = RegExp(
-          /^\(?([0-9]{3})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/
+          /^\(?([0-9]{3})\)?[-. ]?([0-9]{5})[-. ]?([0-9]{4})$/
      );
 
      const schema = Yup.object().shape({
@@ -57,7 +57,7 @@ export default function FormCadastro() {
                     <Input type="text"
                          name="telefone"
                          id="telefone"
-                         placeholder="telefone"
+                         placeholder="whatsaap"
                     />
                     <Input type="text"
                          name="cidade"

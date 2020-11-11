@@ -15,15 +15,14 @@ export default function ProdutosCard() {
                         <div className="container-titulo">
                             <h3 className="titulo">{prod.produto}</h3>
                         </div>
-                        <img className="produto-imagem"
+                        <img className="produto-imagem-foto"
                              src={prod.imagem} 
                              alt="imagem" 
-                             width="220" height="120"
                             />
                         <ul className="lista">
-                           <li>descricao Produto: {prod.descricao}</li>
-                            <li>preco : {prod.preco}</li>
-                            <li>quantidade :{prod.quantidade}</li>
+                           <li> Descricao: {prod.descricao}</li>
+                            <li>Preco : {prod.preco}</li>
+                            <li>Quantidade :{prod.quantidade}</li>
                         </ul>
                         <div className="container-button-produto">
                             <button className="button-produto" 

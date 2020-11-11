@@ -9,8 +9,8 @@
   background: #FFFFFF;
   border: 1px solid #D9D8D8;
   box-sizing: border-box;
-  width: 220px;
-  height: 350px;
+  width: 230px;
+  height: 340px;
   margin-top: 38px;
   margin-left: 30px;  
   }
@@ -70,8 +70,11 @@
   }
 
 
-  .produto-imagem{
-    margin-left: -1px;
+  .produto-imagem-foto{
+    width: 220px;
+    margin-top: 9px;
+    height: 100px;
+    object-fit: contain;
   }
 
 
