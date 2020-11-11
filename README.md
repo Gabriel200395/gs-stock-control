@@ -60,18 +60,9 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 </h4>
 
 
-
-<h3 align="center">PAGINA 5</h3>
-<h4 align="center">
-  <img src="/public/IMG/verProduto.jpeg" /><br>
-</h4>
-
-
-
-
 <h3 align="center">PAGINA 6</h3>
 <h4 align="center">
-  <img src="/public/IMG/pesquisa.jpeg" /><br>
+  <img src="/public/IMG/pesquisa.png" /><br>
 </h4>
 
 
