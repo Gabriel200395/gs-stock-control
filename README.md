@@ -37,7 +37,6 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 <h3 align="center">Tela da HOME</h3>
 <h4 align="center">
   <img src="/public/IMG/home.png" /><br>
-  <p>Essa aqui e pagina inicial do Projeto</p>
 </h4>
 
 
@@ -45,7 +44,6 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 <h3 align="center">Tela de Cadastro da Empresa</h3>
 <h4 align="center">
   <img src="/public/IMG/produtos.png" /><br>
-  <p>Essa aqui e pagina de cadastro da empresa</p>
 </h4>
 
 
@@ -54,21 +52,18 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 <h3 align="center">Tela de Cadastro de Produtos</h3>
 <h4 align="center">
   <img src="/public/IMG/CadastroProdutos.png" /><br>
-    <p>Essa aqui e pagina de cadastro de produtos</p>
 </h4>
 
 
 <h3 align="center">Lista Produtos</h3>
 <h4 align="center">
   <img src="/public/IMG/lista.png" /><br>
-      <p>Essa aqui e pagina de lista os produtos</p>
 </h4>
 
 
 <h3 align="center">Tela de Pesquisa da Empresa</h3>
 <h4 align="center">
   <img src="/public/IMG/Pesquisa.png" /><br>
-        <p>Essa aqui e pagina de pesquisa da Empresa</p>
 </h4>
 
 
