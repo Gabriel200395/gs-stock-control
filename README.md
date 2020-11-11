@@ -34,7 +34,7 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 
 ## :heart_eyes: Features
 
-<h3 align="center">Tela da HOME</h3>
+<h3 align="center">Tela da Home</h3>
 <h4 align="center">
   <img src="/public/IMG/home.png" /><br>
 </h4>
@@ -55,7 +55,7 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 </h4>
 
 
-<h3 align="center">Lista Produtos</h3>
+<h3 align="center">Tela Lista Produtos</h3>
 <h4 align="center">
   <img src="/public/IMG/lista.png" /><br>
 </h4>
