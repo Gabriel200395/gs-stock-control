@@ -1,4 +1,4 @@
-<h1 align="center">TITULO</h1>
+<h1 align="center">Sistema de Controle de Estoque</h1>
 <h4 align="center">
   <img src="./.github/assets/IMAGE OU GIF" /><br>
 </h4>
@@ -18,7 +18,11 @@
 
 ## :page_facing_up: Sobre
 
-Descrição sobre o projeto
+
+Esse Projeto foi desenvolvido no intuito de empresas fazer o controle de produtos no sistema, com isso ele poderar fazer
+tanto o cadastro no sistema, cadastrar produto, ver o produto cadastrado, e editar e remover, caso queira fazer a pesquisa com o seguinte
+nome da empresa  poderar ver o produto que foi cadastrado no sistema. 
+
 
 ## 💻 Como usar
 
