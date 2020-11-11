@@ -34,40 +34,39 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 
 ## :heart_eyes: Features
 
-<h3 align="center">PAGINA 1</h3>
+<h3 align="center"> Tela da Home </h3>
 <h4 align="center">
   <img src="./public/IMG/inicio.jpeg"  widht="250" height="250"/><br>
 </h4>
 
 
-<h3 align="center">PAGINA 2</h3>
+<h3 align="center">Tela de Cadastro da Empresa</h3>
 <h4 align="center">
   <img src="./public/IMG/cadastro.jpeg" widht="200" height="200"/><br>
 </h4>
 
 
 
-<h3 align="center">PAGINA 3</h3>
+<h3 align="center">Tela de Cadastro de Produtos </h3>
 <h4 align="center">
   <img src="./public/IMG/cadastroProduto.jpeg" widht="200" height="200"/><br>
 </h4>
 
 
 
-<h3 align="center">PAGINA 4</h3>
+<h3 align="center">Tela de Lista Produtos</h3>
 <h4 align="center">
   <img src="./public/IMG/listaProdutos.jpeg" widht="200" height="200"/><br>
 </h4>
 
 
-<h3 align="center">PAGINA 5</h3>
+<h3 align="center">Tela de Pesquisa Empresa</h3>
 <h4 align="center">
   <img src="./public/IMG/pesquisa.jpeg" widht="200" height="200"/><br>
 </h4>
 
 
-
-<h3 align="center">PAGINA 6</h3>
+<h3 align="center">Tela de Visualizar Produto</h3>
 <h4 align="center">
   <img src="./public/IMG/verProduto.jpeg" widht="200" height="200"/><br>
 </h4>
