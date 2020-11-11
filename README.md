@@ -36,13 +36,13 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 
 <h3 align="center"> Tela da Home </h3>
 <h4 align="center">
-  <img src="./public/IMG/inicio.jpeg"  widht="250" height="250"/><br>
+  <img src="./public/IMG/inicio.jpeg"  widht="250" height="250" /><br>
 </h4>
 
 
 <h3 align="center">Tela de Cadastro da Empresa</h3>
 <h4 align="center">
-  <img src="./public/IMG/cadastro.jpeg" widht="200" height="200" style="object-fil:fill"/><br>
+  <img src="./public/IMG/cadastro.jpeg" widht="200" height="200" style="object-fit: cover"/><br>
 </h4>
 
 
