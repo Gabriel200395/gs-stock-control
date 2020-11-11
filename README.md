@@ -67,6 +67,13 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 </h4>
 
 
+
+<h3 align="center">Tela de Visualizar Produto</h3>
+<h4 align="center">
+  <img src="/public/IMG/ver.png" /><br>
+</h4>
+
+
 ## :pencil: Autor
 
 <table>
