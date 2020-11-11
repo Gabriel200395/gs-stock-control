@@ -15,6 +15,10 @@
 
 <!--EXEMPLO:-->
 - [React](https://pt-br.reactjs.org/)
+- [Yup](https://formik.org/docs/guides/validation)
+- [Axios](https://www.npmjs.com/package/axios)
+- [React Router](https://www.npmjs.com/package/react-router-dom)
+
 
 ## :page_facing_up: Sobre
 
@@ -68,7 +72,7 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 
 
 
-<h3 align="center">Tela de Visualizar Produto</h3>
+<h3 align="center">Tela de Visualizar Produtos</h3>
 <h4 align="center">
   <img src="/public/IMG/ver.png" /><br>
 </h4>
