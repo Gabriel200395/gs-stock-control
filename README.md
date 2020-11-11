@@ -41,7 +41,7 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 
 <h3 align="center">Tela de Cadastro da Empresa</h3>
 <h4 align="center">
-  <img src="./public/IMG/cadastro.jpeg" widht="200" height="200" style="object-fit: cover"/><br>
+  <img src="./public/IMG/cadastro.jpeg"/><br>
 </h4>
 
 
