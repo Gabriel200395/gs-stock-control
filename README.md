@@ -1,4 +1,4 @@
-<h1 align="center">Sistema de Controle de Estoque</h1>
+<h1 align="center">GS Control System</h1>
 <h4 align="center">
   <img src="./public/IMG/controleEstoque.gif"/><br>
 </h4>
