@@ -22,9 +22,8 @@ Descrição sobre o projeto
 
 ## 💻 Como usar
 
-- Clone o projeto: `git clone link-do-projeto`;
-- Entrar na pasta do projeto: `cd nome-do-projeto`;
-- Instalar as dependências: `npm install`;
+- Clone o projeto: `https://github.com/Gabriel200395/gs-stock-control.git`;
+- Entrar na pasta do projeto: `cd gs-stock-control`;
 - Iniciar a aplicação: `npm start`.
 
 Irá abrir uma página no browser (se não abrir, vá até [http://localhost:8080](http://localhost:8080/)).
