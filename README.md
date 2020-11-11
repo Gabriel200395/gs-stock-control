@@ -36,13 +36,13 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 
 <h3 align="center">PAGINA 1</h3>
 <h4 align="center">
-  <img src="/public/IMG/inicio.jpeg" /><br>
+  <img src="/public/IMG/home.png" /><br>
 </h4>
 
 
 <h3 align="center">PAGINA 2</h3>
 <h4 align="center">
-  <img src="/public/IMG/cadastro.jpeg" /><br>
+  <img src="/public/IMG/produtos.jpeg" /><br>
 </h4>
 
 
@@ -50,13 +50,13 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 
 <h3 align="center">PAGINA 3</h3>
 <h4 align="center">
-  <img src="/public/IMG/cadastroProduto.jpeg" /><br>
+  <img src="/public/IMG/cadastroProdutos.png" /><br>
 </h4>
 
 
 <h3 align="center">PAGINA 4</h3>
 <h4 align="center">
-  <img src="/public/IMG/listaProdutos.jpeg" /><br>
+  <img src="/public/IMG/lista.png" /><br>
 </h4>
 
 
