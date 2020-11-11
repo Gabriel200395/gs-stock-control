@@ -35,7 +35,7 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 
 <h3 align="center"> Tela da Home </h3>
 <h4 align="center">
-  <img src="./public/IMG/control.jpeg"  widht="250" height="250" /><br>
+  <img src="./public/IMG/control.gif"  widht="250" height="250" /><br>
 </h4>
 
 ## :pencil: Autor
