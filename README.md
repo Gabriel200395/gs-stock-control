@@ -32,7 +32,7 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 
 <h3 align="center">PAGINA 1</h3>
 <h4 align="center">
-  <img src="./public/IMG/inicio.jpeg"  widht="200" height="200"/><br>
+  <img src="./public/IMG/inicio.jpeg"  widht="250" height="250"/><br>
 </h4>
 
 
