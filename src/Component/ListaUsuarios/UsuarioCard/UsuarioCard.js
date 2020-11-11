@@ -14,7 +14,7 @@ export default function UsuarioCard() {
             <div className="buscador-usuarios">
                 <input type="text"
                     value={filtro}
-                    placeholder="Buscar Empresas"
+                    placeholder="Buscar tse"
                     onChange={handleInputChange}
                 />
             </div>
