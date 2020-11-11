@@ -31,8 +31,10 @@ nome da empresa  poderar ver o produto que foi cadastrado no sistema.
 ## 💻 Como usar
 
 - Clone o projeto: `git clone https://github.com/Gabriel200395/gs-stock-control.git`
-- Entrar na pasta do projeto: `cd gs-stock-control`;
-- Iniciar a aplicação: `npm start`.
+- Entrar na pasta do projeto: `cd gs-stock-control`
+- Iniciar a aplicação: `npm start`
+- baixe na aplicação: `npm install`
+
 
 Irá abrir uma página no browser (se não abrir, vá até [http://localhost:8080](http://localhost:8080/)).
 
