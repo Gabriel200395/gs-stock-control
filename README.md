@@ -62,7 +62,7 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 
 <h3 align="center">PAGINA 6</h3>
 <h4 align="center">
-  <img src="/public/IMG/pesquisa.png" /><br>
+  <img src="/public/IMG/Pesquisa.png" /><br>
 </h4>
 
 
