@@ -55,13 +55,13 @@ Irá abrir uma página no browser (se não abrir, vá até [http://localhost:808
 
 <h3 align="center">Tela de Cadastro de Produtos</h3>
 <h4 align="center">
-  <img src="/public/IMG/CadastroProdutos.png" /><br>
+  <img src="/public/IMG/lista1.png" /><br>
 </h4>
 
 
 <h3 align="center">Tela Lista Produtos</h3>
 <h4 align="center">
-  <img src="/public/IMG/lista1.png" /><br>
+  <img src="/public/IMG/lista.png" /><br>
 </h4>
 
 
