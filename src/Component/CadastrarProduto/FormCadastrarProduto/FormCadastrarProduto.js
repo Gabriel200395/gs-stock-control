@@ -21,9 +21,9 @@ export default function FormCadastrarProduto() {
      });
 
      const handleSubmit  = async (data) => {
-          const produto = {...data, usuarioId: id}
+          const produto = {...data, empresaId: id}
           try {
-               const res = await axios.post("http://localhost:8080/produto", produto);
+               const res = await axios.post("http://localhost:8080/produtos", produto);
                console.log(res.data)
            } catch (err) {
                console.log("error ao enviar dados na api");

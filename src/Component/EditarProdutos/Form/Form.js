@@ -21,7 +21,7 @@ export default function Form(props) {
 
      useEffect(() => {
           async function loading() {
-               const res = await axios.get("http://localhost:8080/produto/" + props.match.params.id);
+               const res = await axios.get("http://localhost:8080/produtos/" + props.match.params.id);
                setProduto({
                     descricao: res.data.idProduto.descricao,
                     quantidade: res.data.idProduto.quantidade,
@@ -39,10 +39,10 @@ export default function Form(props) {
           e.preventDefault();
           if (!editar) {
                const _id = props.match.params.id
-               const res = await axios.put("http://localhost:8080/produto/" + _id, produto);
+               const res = await axios.put("http://localhost:8080/produtos/" + _id, produto);
                console.log(res.data)
           } else {
-               const res = await axios.post("http://localhost:8080/produto/" + produto);
+               const res = await axios.post("http://localhost:8080/produtos/" + produto);
                console.log(res.data)
           }
           setEditar(editar)

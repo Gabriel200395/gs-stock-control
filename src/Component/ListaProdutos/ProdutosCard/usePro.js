@@ -6,7 +6,7 @@ const usePro = () => {
 
     useEffect(() => {
         async function produto() {
-            const res = await axios.get("http://localhost:8080/produto");
+            const res = await axios.get("http://localhost:8080/produtos");
             setProduto(res.data.produto);
         }
         produto();
@@ -15,7 +15,7 @@ const usePro = () => {
 
     const deleteProdutos = async (_id) => {
         try {
-            const res = await axios.delete(`http://localhost:8080/produto/${_id}`);
+            const res = await axios.delete(`http://localhost:8080/produtos/${_id}`);
             setProduto(produto.filter(pro => pro._id !== _id));
             console.log(res.data);
         } catch (err) {

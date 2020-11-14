@@ -3,10 +3,10 @@ import React from 'react'
 import useCard from './useCard'
 import './card.css'
 import { Link } from 'react-router-dom'
-export default function UsuarioCard() {
+export default function EmpresaCard() {
 
 
-    const [handleInputChange, deleteUser, usuarioFiltrado, filtro] = useCard('');
+    const [handleInputChange, deleteUser, empresaFiltrado, filtro] = useCard('');
 
     return (
 
@@ -19,23 +19,23 @@ export default function UsuarioCard() {
                 />
             </div>
             <div className="container">
-                {usuarioFiltrado.map((usuario) => (
-                    <div className="card-container" key={usuario._id}>
+                {empresaFiltrado.map((empresa) => (
+                    <div className="card-container" key={empresa._id}>
                         <div className="container-titulo">
-                            <h3 className="titulo">{usuario.empresa}</h3>
+                            <h3 className="titulo">{empresa.empresa}</h3>
                         </div>
                         <ul className="lista">
-                            <li>nome da empresa : {usuario.empresa}</li>
-                            <li>Gmail :{usuario.gmail}</li>
-                            <li>telefone: {usuario.telefone}</li>
-                            <li>cidade: {usuario.cidade}</li>
-                            <li>Uf: {usuario.uf}</li>
+                            <li>nome da empresa : {empresa.empresa}</li>
+                            <li>Gmail :{empresa.gmail}</li>
+                            <li>telefone: {empresa.telefone}</li>
+                            <li>cidade: {empresa.cidade}</li>
+                            <li>Uf: {empresa.uf}</li>
 
                         </ul>
                         <div className="container-button">
-                            <Link to={"/VisualizarProduto/" + usuario._id} 
+                            <Link to={"/VisualizarProduto/" + empresa._id} 
                             className="editar">Ver Produto</Link>
-                            <button onClick={() => deleteUser(usuario._id)} 
+                            <button onClick={() => deleteUser(empresa._id)} 
                             className="remover">
                             remover</button>
                         </div>

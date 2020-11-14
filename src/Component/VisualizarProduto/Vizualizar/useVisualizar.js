@@ -10,7 +10,7 @@ const useVisualizar = () => {
 
     useEffect(() => {
         async function buscarDataProduto() {
-            const res = await axios.get(`http://localhost:8080/usuario/${id}/produtos`)
+            const res = await axios.get(`http://localhost:8080/empresa/${id}/produtos`)
             setProduto(res.data.produtos);
         }
         buscarDataProduto()

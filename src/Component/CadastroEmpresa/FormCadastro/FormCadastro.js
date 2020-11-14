@@ -30,7 +30,7 @@ export default function FormCadastro() {
 
      const handleSubmit = async (data) => {
           try {
-               const res = await axios.post("http://localhost:8080/usuario", data);
+               const res = await axios.post("http://localhost:8080/empresa", data);
                console.log(res.data)
           } catch (err) {
                console.log("error ao enviar os dados");

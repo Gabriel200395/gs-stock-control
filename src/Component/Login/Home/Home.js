@@ -9,7 +9,7 @@ export default function Home() {
                 <h3 className="titulo">Faça seu login.</h3>
                 <div className="form-input" >
                     <Link to="/CadastroEmpresa" className="button">Sign up</Link>
-                    <Link to="/ListaUsuarios" className="button">Register</Link>
+                    <Link to="/ListaEmpresa" className="button">Register</Link>
                 </div>
             </div>
         </section>

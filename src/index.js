@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import CadastroEmpresa from './Component/CadastroEmpresa/CadastroEmpresa'
-import ListaUsuarios from './Component/ListaUsuarios/ListaUsuarios'
+import ListaEmpresa from './Component/ListaEmpresa/ListaEmpresa'
 import CadastrarProduto from './Component/CadastrarProduto/CadastrarProduto'
 import Form from './Component/EditarProdutos/Form/Form'
 import ListaProdutos from './Component/ListaProdutos/ListaProdutos'
@@ -16,7 +16,7 @@ ReactDOM.render(
     <Switch>
       <Route path="/" exact={true} component={App} />
       <Route path="/CadastroEmpresa" component={CadastroEmpresa} />
-      <Route path="/ListaUsuarios" component={ListaUsuarios} />
+      <Route path="/ListaEmpresa" component={ListaEmpresa} />
       <Route path="/CadastrarProduto/:id" component={CadastrarProduto} />
       <Route path="/ListaProdutos" component={ListaProdutos} />
       <Route path="/EditarProdutos/:id" component={Form} />
