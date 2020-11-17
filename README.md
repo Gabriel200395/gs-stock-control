@@ -23,11 +23,7 @@
 ## :page_facing_up: Sobre
 
 
-Esse Projeto foi desenvolvido no intuito de empresas fazer o controle de produtos no sistema, com isso ele poderar fazer
-tanto o cadastro no sistema, cadastrar produto, ver o produto cadastrado, e editar e remover, caso queira fazer a pesquisa com o seguinte
-nome da empresa  poderar ver o produto que foi cadastrado no sistema. 
-
-
+Projeto que desenvolvi baseado em controle de estoques de empresas. Onde é possível cadastrar produtos de qualquer tipo, listar todos os produtos cadastrados, editar algum produto em especifico ou até deletar produtos da base de dados. Um caso de uso interessante seria mercados utilizarem essa aplicação para facilitar o controle de estoque, podendo visualizar, com maior facilidade, todas as informações importantes de seus estoques. Caso queira saber mais sobre o projeto, clique no botão abaixo.
 ## 💻 Como usar
 
 - Clone o projeto: `git clone https://github.com/Gabriel200395/gs-stock-control.git`
