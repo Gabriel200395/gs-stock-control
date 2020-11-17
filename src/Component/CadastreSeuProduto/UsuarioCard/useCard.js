@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 
 const useCard = () => {
-    const [listEmpresa, setEmpresa] = useState([]); // state para trazer os usuarios
+    const [listEmpresa, setEmpresa] = useState([]); // state para trazer os empresa
 
     useEffect(() => {
         async function buscar() {
